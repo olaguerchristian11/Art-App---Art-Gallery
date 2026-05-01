@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Artist Exhibit</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="exhibit">
+        <div class="logo">The Grand Gallery</div>
+        <ul class="nav-links">
+            <li><a href="museum-entrancce.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <!-- Secondary Artist Navigation Bar -->
+    <nav class="sub-navbar">
+        <ul class="artist-links">
+            <li><a href="#room-1">Fernando Amorsolo</a></li>
+            <li><a href="#room-5">[Artist 2]</a></li>
+            <li><a href="#room-3">[Artist 3]</a></li>
+            <li><a href="#room-4">[Artist 4]</a></li>
+            <li><a href="#room-5">[Artist 5]</a></li>
+            <li><a href="#room-6">[Artist 6]</a></li>
+            <li><a href="#room-7">[Artist 7]</a></li>
+            <li><a href="#room-8">[Artist 8]</a></li>
+            <li><a href="#room-9">[Artist 9]</a></li>
+        </ul>
+    </nav>
+
+    <!-- Horizontal Scroll Container -->
+    <main class="gallery-container">
+        <!-- Room 1 -->
+        <section id="room-1" class="gallery-room room-portrait work-1">
+            <div class="art-info-hidden">
+                <div class="art-piece">
+                    <div class="frame">
+                        <div class="matboard">
+                            <img onclick="toggleArtInfo()" src="img/national_artist/1.webp" alt="Art Piece 1" class="canvas">
+                        </div>
+                    </div>
+                    <div class="plaque">
+                        <h3>Fernando Amorsolo</h3>
+                        <p>1892 - 1972 &bull; National Artist for Visual Arts</p>
+                    </div>
+                </div>
+                <div class="art-description">
+                    <h3>Fernando Amorsolo</h3>
+                    <p>
+                        Nicknamed the "Grand Old Man of Philippine Art," he was the first-ever to be recognized as a National Artist of the Philippines. Fernando Amorsolo Y. Cueto was a portraitist and painter of rural Philippine landscapes.
+                    </p>
+                </div>
+            </div>
+
+            <div class="spotlight"></div>
+            <div class="wall">
+                <p class="txt left">Fernando</p>
+                <div class="art-piece">
+                    <div class="frame">
+                        <div class="matboard">
+                            <img onclick="toggleArtInfo()" src="img/national_artist/1.webp" alt="Art Piece 1" class="canvas">
+                        </div>
+                    </div>
+                </div>
+                <p class="txt right">Amorsolo</p>
+            </div>
+        </section>
+        <!-- Room 2 -->
+        <section id="room-2" class="gallery-room room-portrait work-2">
+            <div class="art-info-hidden">
+                <div class="art-piece">
+                    <div class="frame">
+                        <div class="matboard">
+                            <img onclick="toggleArtInfo()" src="img/national_artist/2.jpg" alt="Art Piece 1" class="canvas">
+                        </div>
+                    </div>
+                    <div class="plaque">
+                        <h3>Dalagang Bukid</h3>
+                        <p>1928 &bull; Oil on Canvas</p>
+                    </div>
+                </div>
+                <div class="art-description">
+                    <h3>Dalagang Bukid</h3>
+                    <p>
+                        "Dalagang Bukid" (Country Maiden) is one of Fernando Amorsolo's most iconic works, depicting a young
+                    </p>
+                </div>
+            </div>
+
+            <div class="spotlight"></div>
+            <div class="wall">
+                <div class="art-piece">
+                    <div class="frame">
+                        <div class="matboard">
+                            <img onclick="toggleArtInfo()" src="img/national_artist/2.jpg" alt="Art Piece 1" class="canvas">
+                        </div>
+                    </div>
+                </div
+                >
+            </div>
+        </section>
+
+        <!-- Room 3 -->
+        <section id="room-3" class="gallery-room room-landscape work-3">
+            <div class="art-info-hidden">
+                <div class="art-piece">
+                    <div class="frame">
+                        <div class="matboard">
+                            <img onclick="toggleArtInfo()" src="img/national_artist/3.jpg" alt="Art Piece 2" class="canvas">
+                        </div>
+                    </div>
+                    <div class="plaque">
+                        <h3>Planting Rice</h3>
+                        <p>1921 &bull; Oil on Canvas</p>
+                    </div>
+                </div>    
+                <div class="art-description">
+                    <h3>Planting Rice</h3>
+                    <p>
+                        "Planting Rice" is a depiction of the agricultural activities in the Philippines during the mid-20th century.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="spotlight"></div>
+            <div class="wall">
+                <div class="art-piece">
+                    <div class="frame">
+                        <div class="matboard">
+                            <img onclick="toggleArtInfo()" src="img/national_artist/3.jpg" alt="Art Piece 2" class="canvas">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Room 4 -->
+        <section id="room-4" class="gallery-room room-portrait work-4">
+            <div class="art-info-hidden">
+                <div class="art-piece">
+                    <div class="frame">
+                        <div class="matboard">
+                            <img onclick="toggleArtInfo()" src="img/national_artist/4.jpg" alt="Art Piece 3" class="canvas">
+                        </div>
+                    </div>
+                    <div class="plaque">
+                        <h3>Florencia “Nena” Singson Gonzalez-Belo</h3>
+                        <p>1972 &bull; Oil on Canvas</p>
+                    </div>
+                </div>    
+                <div class="art-description">
+                    <h3>Unfinished Portrait of Florencia “Nena” Singson Gonzalez-Belo</h3>
+                    <p>
+                        The oil-on-canvas piece, featuring a fair-skinned lady in a pink top, remains unfinished from the chest down, revealing exposed underdrawings and grid marks.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="spotlight"></div>
+            <div class="wall">
+                <div class="art-piece">
+                    <div class="frame">
+                        <div class="matboard">
+                            <img onclick="toggleArtInfo()" src="img/national_artist/4.jpg" alt="Art Piece 3" class="canvas">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Room 5 -->
+        <section id="room-5" class="gallery-room room-landscape">
+            <div class="spotlight"></div>
+            <div class="wall">
+                <div class="art-piece">
+                    <div class="frame">
+                        <div class="matboard">
+                            <!-- Add your image as a background or img tag here -->
+                            <div class="canvas placeholder-2"></div>
+                        </div>
+                    </div>
+                    <div class="plaque">
+                        <h3>Water Lilies</h3>
+                        <p>1899 &bull; Oil on Canvas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Room 6 -->
+        <section id="room-6" class="gallery-room room-square">
+            <div class="spotlight"></div>
+            <div class="wall">
+                <div class="art-piece">
+                    <div class="frame">
+                        <div class="matboard">
+                            <!-- Add your image as a background or img tag here -->
+                            <div class="canvas placeholder-3"></div>
+                        </div>
+                    </div>
+                    <div class="plaque">
+                        <h3>The Dream</h3>
+                        <p>1932 &bull; Oil on Canvas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Room 7 -->
+        <section id="room-7" class="gallery-room room-large">
+            <div class="spotlight"></div>
+            <div class="wall">
+                <div class="art-piece">
+                    <div class="frame">
+                        <div class="matboard">
+                            <!-- Add your image as a background or img tag here -->
+                            <div class="canvas placeholder-4"></div>
+                        </div>
+                    </div>
+                    <div class="plaque">
+                        <h3>Composition X</h3>
+                        <p>1939 &bull; Oil on Canvas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Room 8 -->
+        <section id="room-8" class="gallery-room room-portrait">
+            <div class="spotlight"></div>
+            <div class="wall">
+                <div class="art-piece">
+                    <div class="frame">
+                        <div class="matboard">
+                            <!-- Add your image as a background or img tag here -->
+                            <div class="canvas placeholder-1"></div>
+                        </div>
+                    </div>
+                    <div class="plaque">
+                        <h3>The Builders</h3>
+                        <p>1928 &bull; Oil on Canvas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Room 6 -->
+        <section id="room-6" class="gallery-room room-landscape">
+            <div class="spotlight"></div>
+            <div class="wall">
+                <div class="art-piece">
+                    <div class="frame">
+                        <div class="matboard">
+                            <!-- Add your image as a background or img tag here -->
+                            <div class="canvas placeholder-2"></div>
+                        </div>
+                    </div>
+                    <div class="plaque">
+                        <h3>Blood Compact</h3>
+                        <p>1965 &bull; Mural</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script>
+        // Smooth scrolling for navigation links in a horizontal layout
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    const container = document.querySelector('.gallery-container');
+                    container.scrollTo({
+                        left: targetElement.offsetLeft,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Translate vertical mouse wheel scrolling into horizontal scrolling
+        const container = document.querySelector('.gallery-container');
+        container.addEventListener('wheel', (e) => {
+            // Prevent default vertical scroll unless user is scrolling very fast
+            e.preventDefault();
+            container.scrollBy({
+                left: e.deltaY * 2.5, // Scroll speed multiplier
+                behavior: 'smooth'
+            });
+        }, { passive: false });
+
+        // Function for the image click (onclick="toggleArtInfo()")
+        function toggleArtInfo() {
+            // Finds the specific room section containing the clicked image
+            const currentRoom = event.currentTarget.closest(".gallery-room");
+            const artInfo = currentRoom.querySelector(".art-info-hidden");
+            
+            artInfo.classList.toggle("show");
+        }
+
+        // Logic for the buttons (Replaces the single ID with a class for multiple rooms)
+        // Note: In your HTML, change id="toggleArtBtn" to class="toggleArtBtn"
+        const toggleButtons = document.querySelectorAll(".toggleArtBtn");
+
+        toggleButtons.forEach(btn => {
+            btn.addEventListener("click", function () {
+                // Finds the specific room section containing this specific button
+                const currentRoom = this.closest(".gallery-room");
+                const artInfo = currentRoom.querySelector(".art-info-hidden");
+                
+                artInfo.classList.toggle("show");
+                
+                // Update text based on state for this specific button
+                this.textContent = artInfo.classList.contains("show") 
+                    ? "Hide Art Info" 
+                    : "Show Art Info";
+            });
+        });
+    </script>
+</body>
+
+</html>
